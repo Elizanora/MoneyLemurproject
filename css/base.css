@@ -1,0 +1,801 @@
+body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.125rem;
+      font-weight: 400;
+      color: #003557;
+
+      /*grid*/
+
+
+}
+
+.container {
+      max-width: 1800px;
+      padding-left: 3.75rem;
+      padding-right: 3.75rem;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+
+/*Header*/
+.header {
+      position: relative;
+      padding-top: 1.8125rem;
+      padding-bottom: 1.8125rem;
+}
+
+.header-logo {
+      position: absolute;
+      top: 1.125rem;
+      left: 13%;
+}
+
+.header-logo img {
+      width: 15.4375rem;
+      height: 3.125rem;
+}
+
+.home-page {
+      position: relative;
+
+}
+
+.home-content {
+      position: relative;
+      font-family: 'Satoshi', sans-serif;
+      color: #003557;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 9.375rem;
+}
+
+.home-heading {
+      font-family: "Satoshi", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      font-size: 2.25rem;
+      margin-bottom: 2.25rem;
+      max-width: 26.875rem;
+      text-align: center;
+      line-height: 3rem;
+
+}
+
+.home-text {
+      font-size: .875rem;
+      font-weight: 400;
+      line-height: 1.5625rem;
+      margin-bottom: 2.25rem;
+      max-width: 28.125rem;
+      text-align: center;
+}
+
+.btn,
+a.btn {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 2.75rem;
+      width: 10.4375rem;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+      background: #FF873E;
+      color: #fff;
+      font-size: .75rem;
+      border-radius: .4375rem;
+      box-shadow: 0rem .4375rem 1.4375rem rgba(219, 75, 29, 0.31);
+      transition: opacity 0.2s ease;
+}
+
+.btn:hover,
+a.btn:hover {
+      opacity: 0.8;
+      color: #fff;
+}
+
+.home-small-img {
+      position: absolute;
+      right: 13%;
+      top: 78%;
+}
+
+.home-small-img img {
+      height: 22.1875rem;
+      width: 26.25rem;
+}
+
+.home-bg-img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 44.8125rem;
+      object-fit: cover;
+      z-index: -1;
+}
+
+.home-bg-img img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+}
+
+.best-deal {
+      position: relative;
+      max-height: 39.4688rem;
+      margin-top: 270px;
+}
+
+.best-deal-content {
+      color: #fff;
+      max-width: 29.75rem;
+      padding-top: 9.375rem;
+      padding-bottom: 24.5625rem;
+      margin-left: 18%;
+}
+
+.best-deal-heading {
+      font-family: 'Satoshi', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.25rem;
+      line-height: 2.8125rem;
+      margin-bottom: 2.3125rem;
+}
+
+.best-deal-text {
+      font-size: .875rem;
+}
+
+.best-deal-bg-img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      max-height: 39.4688rem;
+      object-fit: cover;
+      z-index: -1;
+
+}
+
+.best-deal-bg-img img {
+      width: 100%;
+      height: 39.5rem;
+      object-fit: cover;
+}
+
+.best-deal-small-img {
+      position: absolute;
+      right: 11%;
+      top: 286px;
+}
+
+.best-deal-small-img img {
+      max-height: 21.625rem;
+      max-width: 19rem;
+}
+
+.how-it-works {
+      position: relative;
+      height: 38.5625rem;
+      background-color: #f5efd4;
+
+}
+
+.how-it-works-content {
+      max-width: 25rem;
+      padding-top: 9.875rem;
+      padding-bottom: 24.5625rem;
+      margin-left: 56%;
+}
+
+.how-it-works-heading {
+      font-family: 'Satoshi', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.25rem;
+      line-height: 2.8125rem;
+      margin-bottom: 2.3125rem;
+}
+
+.how-it-works-text {
+      font-size: .875rem;
+      line-height: 1.875rem;
+}
+
+.how-it-works-small-img {
+      position: absolute;
+      left: 3%;
+      bottom: 5rem;
+
+}
+
+.how-it-works-small-img img {
+      max-height: 29rem;
+      max-width: 100%;
+}
+
+.you-are-done {
+      background-color: #f7f6f2;
+      position: relative;
+      height: 40.125rem;
+}
+
+.you-are-done-content {
+      width: 52.25rem;
+      padding-top: 9.375rem;
+      padding-bottom: 24.5625rem;
+      margin-left: 14%;
+}
+
+.you-are-done-heading {
+      font-family: 'Satoshi', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.25rem;
+      line-height: 2.8125rem;
+      margin-bottom: 2.3125rem;
+}
+
+.you-are-done-text {
+      width: 25rem;
+      font-size: .875rem;
+      margin-bottom: 2.3125rem;
+}
+
+.you-are-done-small-img img {
+      position: absolute;
+      height: 27.1875rem;
+      width: 22.5rem;
+      right: 23%;
+      bottom: 9.375rem;
+}
+
+.benefits {
+      height: 40.625rem;
+      background-color: #f7f6f2;
+
+
+}
+
+.benefits-heading {
+      font-family: 'Satoshi', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.25rem;
+      line-height: 2.8125rem;
+      padding-top: 6.25rem;
+      max-width: 28.125rem;
+      padding-bottom: 10.25rem;
+
+}
+
+.benefits-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.benefits-row {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      row-gap: 3.125rem;
+      padding: 0 6.25rem;
+}
+
+.bene-heading {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+}
+
+.benefits-minihead {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: .9375rem;
+      line-height: 1.25rem;
+      padding-bottom: 1.125rem;
+}
+
+.benefits-icon {
+      height: 3.125rem;
+      width: 3.125rem;
+      margin-bottom: 1.25rem;
+}
+
+.benefits-text {
+      font-size: .8125rem;
+      line-height: 2;
+}
+
+.install-extention {
+      position: relative;
+      height: 27.25rem;
+      background-color: #435239;
+}
+
+.install-extention-content {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+}
+
+.install-extension-heading {
+      font-family: 'Satoshi', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      color: #fff;
+      font-size: 2.25rem;
+      line-height: 2.8125rem;
+      padding-top: 6.625rem;
+      max-width: 56.25rem;
+      padding-bottom: 3.25rem;
+}
+
+.install-extension-small-img {
+      position: absolute;
+      top: 16.9375rem;
+      left: 19%;
+}
+
+.install-extension-small-img img {
+      height: 10.3125rem;
+      width: 11.875rem;
+}
+
+.install-extention-button .btn {
+      background-color: #F85C3A;
+}
+
+.footer {
+      background-color: #f7f6f2;
+
+}
+
+.footer-content {
+      display: flex;
+      padding-top: 3.4375rem;
+      justify-content: space-between;
+}
+
+.footer-install {
+      font-family: 'Satoshi Variable', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: .75rem;
+      line-height: .875rem;
+      width: 21.25rem;
+
+}
+
+.footer-text {
+      color: #000000;
+      opacity: 0.6;
+}
+
+.footer-btn {
+      display: flex;
+      gap: .875rem;
+      padding-right: 5rem;
+}
+
+.app-store img,
+.google-play img {
+      width: 6.75rem;
+      height: 2rem;
+}
+
+.footer-docs {
+      color: #000000;
+      display: flex;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: .75rem;
+      gap: 1.875rem;
+      text-transform: uppercase;
+      margin-bottom: 2.1875rem;
+      margin-top: .9375rem;
+}
+
+.rights {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: .625rem;
+      text-align: right;
+      color: #222222;
+      opacity: 0.3;
+      padding-bottom: 2.1875rem;
+}
+
+.none {
+      display: none;
+}
+
+@media (max-width: 1799px) {
+      .container {
+            width: 100%;
+      }
+
+      .home-small-img img {
+            margin-right: -122px;
+            height: 21.188rem;
+            width: 25.25rem;
+      }
+
+}
+
+@media (max-width:1360px) {
+      .how-it-works-small-img img {
+            max-width: 81%;
+      }
+
+      .you-are-done-content {
+            width: 94%;
+            margin-left: 11%;
+      }
+}
+
+@media (max-width:1212px) {
+      .how-it-works-content {
+            margin-left: 62%;
+      }
+
+      .you-are-done-content {
+            margin-left: 6%;
+      }
+
+      .benefits-heading {
+            padding-bottom: 57px;
+      }
+
+      .benefits-row {
+            flex-wrap: wrap;
+            padding: 0 56px;
+      }
+
+      .footer-install {
+            font-size: 10px;
+            padding-bottom: 20px;
+      }
+
+     
+}
+
+@media (max-width:1110px) {
+
+      .you-are-done-small-img img {
+            max-width: 66%;
+            right: 16%;
+      }
+
+      .how-it-works-content {
+            padding-top: 219px;
+      }
+
+      .you-are-done-content {
+            margin-left: 4%;
+      }
+
+      .footer-install {
+            width: 26%;
+      }
+
+      .footer-content {
+            flex-direction: column;
+            align-items: center;
+      }
+
+      .footer-btn {
+            padding-right: 0;
+
+      }
+}
+
+
+@media (max-width: 991px) {
+      .container {
+            padding-left: 20px;
+            padding-right: 20px;
+      }
+
+      .home-content {
+            padding-top: 70px;
+            min-height: unset;
+      }
+
+      .home-heading {
+            font-size: 32px;
+            line-height: 40px;
+            margin-bottom: 1.25rem;
+      }
+
+      .home-text {
+            line-height: 18px;
+            margin-bottom: 20px;
+            font-size: 12px;
+      }
+
+      .header-logo {
+            position: static;
+      }
+
+      .header-logo img {
+            display: block;
+            margin: auto;
+            width: 100%;
+      }
+
+      .btn,
+      a.btn {
+            height: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+      }
+
+      .home-small-img {
+            position: static;
+            position: relative;
+            left: 0%;
+      }
+
+      .home-small-img img {
+            display: block;
+            margin: auto;
+            width: 90%;
+            height: 387px;
+            padding-top: 19px;
+      }
+
+      .best-deal {
+            margin-top: 0;
+      }
+
+      .best-deal-content {
+            padding-top: 70px;
+      }
+
+      .best-deal-heading {
+            font-size: 32px;
+            line-height: 43px;
+            text-align: center;
+            margin-bottom: 23px;
+      }
+
+      .best-deal-text {
+            text-align: center;
+      }
+
+      .best-deal-small-img {
+            right: 3%;
+            top: 286px;
+      }
+
+      .how-it-works-content {
+            padding-top: 231px;
+            margin-left: 68%;
+      }
+
+      .how-it-works-heading {
+            font-size: 32px;
+            line-height: 44px;
+            margin-bottom: 20px;
+      }
+
+      .how-it-works-text {
+            font-size: 12px;
+            line-height: 25px;
+      }
+
+      .how-it-works-small-img img {
+            padding-right: 15px;
+      }
+
+      .you-are-done-content {
+            width: 100%;
+            padding-top: 70px;
+            padding-bottom: 50px;
+            margin-left: -1%;
+            text-align: center;
+      }
+
+      .you-are-done-heading {
+            font-size: 32px;
+            line-height: 37px;
+            margin-bottom: 32px;
+      }
+
+      .you-are-done-text {
+            width: 100%;
+            margin-bottom: 37px;
+      }
+
+      .you-are-done-small-img img {
+            height: 50%;
+            width: 81%;
+            right: 18%;
+            bottom: -18px;
+      }
+
+      .you-are-done-button {
+            display: flex;
+            justify-content: center;
+      }
+
+      .benefits-heading {
+            padding-top: 70px;
+            font-size: 32px;
+            line-height: 37px;
+      }
+
+      .benefits-row {
+            padding: 70px 0;
+            justify-content: space-around;
+      }
+
+      .install-extention-content {
+            padding-top: 56px;
+      }
+
+      .install-extension-heading {
+            font-size: 32px;
+            padding-bottom: 23px;
+      }
+
+      .install-extention {
+            position: relative;
+            height: 30.25rem;
+      }
+
+      .install-extension-small-img {
+            top: 19.938rem;
+      }
+
+      .footer-install {
+            width: 62%;
+      }
+}
+
+@media (max-width:863px) {
+      .how-it-works-content {
+            padding-top: 70px;
+            margin-left: 28%;
+            text-align: center;
+      }
+
+      .how-it-works-heading {
+            font-size: 32px;
+            line-height: 44px;
+            margin-bottom: 20px;
+            margin-left: 32px;
+      }
+
+      .how-it-works-text {
+            font-size: 12px;
+            line-height: 25px;
+      }
+
+      .how-it-works-small-img img {
+            padding-right: 15px;
+      }
+
+      .how-it-works-small-img {
+            bottom: 0rem;
+      }
+
+      .benefits-row {
+            flex-direction: column;
+
+      }
+
+      .benefits {
+            height: 100%;
+      }
+
+      .install-extension-heading {
+            font-size: 32px;
+            padding-top: 20px;
+      }
+      .footer-btn {
+            flex-direction: column;
+            gap: 2px;
+      }
+      .app-store img, .google-play img {
+            width: 7.75rem;
+            height: 3rem;
+}
+}
+
+@media (max-width:709px) {
+      .how-it-works-small-img img {
+            max-width: 471px;
+
+      }
+
+      .how-it-works-content {
+            margin-left: 22%;
+      }
+
+      .benefits {
+            height: 100%;
+      }
+
+      .install-extention {
+            position: relative;
+            height: 37.25rem;
+      }
+
+      .install-extension-small-img {
+            top: 26.938rem;
+            left: 50%;
+            transform: translate(-50%, 0);
+      }
+}
+
+.install-extension-heading {
+      font-size: 32px;
+}
+
+@media (max-width:612px) {
+
+      .how-it-works-content {
+            margin-left: 9%;
+      }
+}
+
+@media (max-width: 507px) {
+
+      .home-small-img img {
+            width: 90%;
+            height: 300px;
+      }
+
+      .best-deal-content {
+            margin-left: 0;
+            padding-top: 53px;
+      }
+
+      .how-it-works-content {
+            margin-left: 9%;
+            padding-top: 70px;
+      }
+
+      .how-it-works-heading {
+            margin-left: -3%;
+      }
+
+      .how-it-works-small-img img {
+            max-width: 98%;
+      }
+
+      .how-it-works-small-img {
+            bottom: 1rem;
+      }
+
+      .you-are-done-small-img img {
+            position: absolute;
+            height: 50%;
+            width: 81%;
+            right: 18%;
+            bottom: -18px;
+      }
+
+      .benefits-heading {
+            padding-bottom: 80px;
+      }
+
+     
+
+      .install-extension-small-img {
+            left: 50%;
+            transform: translate(-50%, 0);
+      }
+}
